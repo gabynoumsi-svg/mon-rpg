@@ -23,7 +23,6 @@ mon-rpg/
 │   ├── GDD.md          ← Game Design Document
 │   ├── roadmap.md      ← mon plan de progression
 │   └── journal.md      ← log quotidien (1 ligne/jour)
-├── project.godot       ← fichier projet Godot (sera créé le JOUR 1)
 ├── scenes/
 │   └── .gitkeep
 ├── scripts/
