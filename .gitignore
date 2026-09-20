@@ -1,0 +1,18 @@
+# Godot 4+
+.godot/
+/android/
+
+# Godot 3+
+.import/
+export.cfg
+export_presets.cfg
+
+# Mono/C# (si tu en fais)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Divers
+*.translation
+.DS_Store
+Thumbs.db
