@@ -16,6 +16,18 @@ Types autorisés :
 - `test`     : ajout/modification de tests
 - `chore`    : tâches diverses (config, gitignore, etc.)
 
+Scopes suggérés :
+- `player`   : déplacement, stats, inputs
+- `combat`   : système de combat tour par tour
+- `dialogue` : système de dialogue, PNJ
+- `ui`       : menus, HUD, inventaire
+- `map`      : tilemap, salles, collisions
+- `save`     : sauvegarde/chargement
+- `audio`    : musique, sons
+- `gdd`      : document de design
+- `readme`   : documentation racine
+- `repo`     : structure du dépôt, config
+
 Exemples :
 - `feat(combat): ajout du menu Attaquer/Fuir`
 - `fix(player): collision avec les murs du donjon`
