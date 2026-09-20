@@ -22,6 +22,22 @@ Explorer → parler aux PNJ → combattre (tour par tour) → progresser → bos
 - Inventaire simple
 - Sauvegarde (1 slot) : Points de sauvegarde
 
+## Mécanique signature — Fuite contextuelle
+Chaque ennemi (ou type d'ennemi) a une condition de fuite spécifique.
+Fuir n'est pas un bouton "hasard" : c'est une action stratégique.
+
+Exemples (à affiner) :
+- Loup : fuir réussit si tu as un objet "viande" dans l'inventaire
+- Bandit : fuir réussit si tu as moins de 50% PV (il te croit faible)
+- Slime : fuir réussit toujours mais te fait perdre un objet
+- Boss : fuir est impossible, sauf à un moment précis du combat
+
+Conséquences :
+- La fuite consomme un tour
+- La fuite peut échouer → tour perdu
+- Certaines fuites donnent un bonus (objet, information, réputation)
+- Le joueur doit APPRENDRE les conditions (via essais, PNJ, indices)
+
 ## Contenu minimal (MVP)
 - 5-10 zones
 - 3 types d'ennemis + 1 boss
