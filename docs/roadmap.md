@@ -25,6 +25,7 @@ Objectif : RPG tour par tour, ~1h de jeu, top-down 2D.
 
 ### Phase 1 — Base technique (Jours 1-7)
 - [x] Déplacement joueur
+- [x] Input Map configurée
 - [ ] Animations
 - [ ] TileMap
 - [ ] Caméra propre
