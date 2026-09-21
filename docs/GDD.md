@@ -22,6 +22,21 @@ Explorer → parler aux PNJ → combattre (tour par tour) → progresser → bos
 - Inventaire simple
 - Sauvegarde (1 slot) : Points de sauvegarde
 
+## Contrôles
+- **Déplacement** : ZQSD / WASD / Flèches (via Input Map Godot, touches physiques)
+- **Interagir** : E / Espace (à implémenter)
+- **Menu** : Échap (à implémenter)
+- **Valider** : Entrée / Espace (à implémenter)
+
+## État d'avancement
+- ✅ Déplacement top-down avec collisions (Jour 1)
+- ⬜ PNJ et dialogues
+- ⬜ Combat tour par tour
+- ⬜ Inventaire
+- ⬜ Sauvegarde
+- ⬜ Contenu (village, donjon, boss)
+- ⬜ Polish et build
+
 ## Mécanique signature — Fuite contextuelle
 Chaque ennemi (ou type d'ennemi) a une condition de fuite spécifique.
 Fuir n'est pas un bouton "hasard" : c'est une action stratégique.

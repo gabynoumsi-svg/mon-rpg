@@ -51,3 +51,10 @@ Exemples :
   - `SCREAMING_SNAKE_CASE` pour constantes
 - Une classe par fichier
 - Commentaires en français
+
+## Attention — Fichiers de configuration
+Godot écrase parfois `.editorconfig`, `.gitignore` et `.gitattributes` 
+lors de la création/import d'un projet. Si `git status` montre des 
+modifications sur ces fichiers alors que tu n'y as pas touché :
+    git restore .editorconfig .gitignore .gitattributes
+Ne les committez jamais avec les versions réduites de Godot.
